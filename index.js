@@ -48,7 +48,7 @@ async function run() {
     //  auth api 
 
     app.post('/jwt', async(req,res)=>{
-      
+      const user = req.body;
     })
    
 
